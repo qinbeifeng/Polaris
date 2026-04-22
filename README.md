@@ -196,7 +196,7 @@ PYTHONPATH=backend ./backend/venv/bin/uvicorn app.main:app --host 127.0.0.1 --po
 - 这是 Chrome 插件 service worker 重新加载导致
 - 处理：刷新当前网页或在 `chrome://extensions/` 点击“重新加载”插件
 
-## 12. 联系方式（预留）
+## 12. 联系方式
 
 - 项目作者：邶风
 - 邮箱：3266140065@qq.com
