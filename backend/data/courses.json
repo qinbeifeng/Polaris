@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1b9c46d1-e543-4a93-aa5e-ef3592fd09fe",
+    "name": "材料力学智慧课程",
+    "description": "官方课程",
+    "documents": []
+  },
+  {
+    "id": "9af152e3-6a6d-4797-b0a6-8a96114e3032",
+    "name": "电工技术 I",
+    "description": "官方课程",
+    "documents": []
+  },
+  {
+    "id": "c1f40a90-47f8-4156-911f-051478632cb7",
+    "name": "汽车构造",
+    "description": "官方课程",
+    "documents": []
+  },
+  {
+    "id": "372912de-61b6-4cc7-ac4e-007037699b18",
+    "name": "制冷原理与设备、建筑冷热源",
+    "description": "官方课程",
+    "documents": []
+  },
+  {
+    "id": "fc99eade-1ec3-4530-9e0c-ad1d54114316",
+    "name": "自动控制原理",
+    "description": "官方课程",
+    "documents": []
+  }
+]
