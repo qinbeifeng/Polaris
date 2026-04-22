@@ -200,5 +200,4 @@ PYTHONPATH=backend ./backend/venv/bin/uvicorn app.main:app --host 127.0.0.1 --po
 
 - 项目作者：邶风
 - 邮箱：3266140065@qq.com
-- 指导老师/团队：黄靖/蒙题全队
-- 仓库地址：****\_\_****
+- 仓库地址：https://github.com/qinbeifeng/Polaris
