@@ -80,7 +80,7 @@ Polaris/
 ### 7.1 后端 Python 依赖安装
 
 ```bash
-cd /path/to/projectA12——3.0/backend
+cd /path/to/Polaris/backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -89,12 +89,11 @@ pip install -r requirements.txt
 ### 7.2 环境变量说明（重要）
 
 - 本项目的 `backend/.env` 已提供可直接运行的配置。
-- **请不要修改 `.env` 内容**（比赛提交版本按当前项目现状使用）。
+- **请不要修改 `.env` 内容**
 - 后端启动时会自动读取该 `.env`，并使用你已提供的 API Key。
 
 ## 8. 启动方式（一步一步）
 
-> 目标：评委拿到项目后，5 分钟内完成启动并演示核心流程。
 
 ### Step 1：启动 Milvus（本地向量库）
 
@@ -123,8 +122,9 @@ nc -vz 127.0.0.1 19530
 ### Step 2：启动后端 FastAPI
 
 ```bash
-cd /path/to/Polaris
-PYTHONPATH=backend ./backend/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+cd /path/to/Polaris/backend
+source venv/bin/activate
+PYTHONPATH=backend uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
 
 验证后端：
@@ -138,7 +138,7 @@ PYTHONPATH=backend ./backend/venv/bin/uvicorn app.main:app --host 127.0.0.1 --po
 1. 打开 Chrome，进入：`chrome://extensions/`
 2. 打开右上角「开发者模式」
 3. 点击「加载已解压的扩展程序」
-4. 选择目录：`/path/to/projectA12——3.0/plugin/`
+4. 选择目录：`/path/to/Polaris/plugin/`
 5. 浏览器工具栏出现插件图标，点击打开插件弹窗，选择「学生端 / 教师端」进入系统
 
 ### Step 4：打开网页进行演示
